@@ -13,13 +13,13 @@ class Program7
             count++; 
             n = n/10;   
         }
-        System.out.println("sum " + res);
+        System.out.println("sum :" + res);
         System.out.println("count : " + count);
         System.out.println("Product :" + product);
     }
     public static void main(String [] args)
     {
-        int num = 10;
+        int num = 100;
         sum(num);
     }
 }
