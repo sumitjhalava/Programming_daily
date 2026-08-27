@@ -1,5 +1,5 @@
-// convert binary to decimal.
-class BiToDe
+// convert decimal to binary.
+class decToBi
 {
     static void convertToBinary(int n )
     {
