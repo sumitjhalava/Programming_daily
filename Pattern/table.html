@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let arr = [
+            ['name','city','qualification'],
+            ['ram','indore','bca'],
+            ['shyam','bhopal','mba'],
+            ['mohan','delhi','btech']
+        ]
+
+        let table = document.createElement('table')
+
+        arr.forEach((ele,index)=>{
+            let row = document.createElement('tr');
+            ele.forEach((data)=>{
+                let record = document.createElement(index==0?'th':'td')
+                record.textContent=data;
+                row.append(record)
+
+            })
+            table.append(row);
+        })
+        document.body.append(table);
+
+    </script>
+</body>
+</html>
