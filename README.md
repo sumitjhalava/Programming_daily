@@ -31,7 +31,7 @@ javac String/toUpper.java
 java -cp String toUpper
 ```
 
-The same pattern can be used for programs in the other topic directories. Because the current programs are standalone classes without packages, compile each file from its own directory or provide the directory as the classpath.
+The same pattern can be used for programs in the other topic directories. Since these programs are standalone classes without packages, compile each file from its own directory or provide the correct classpath when needed.
 
 ## Repository Goals
 
